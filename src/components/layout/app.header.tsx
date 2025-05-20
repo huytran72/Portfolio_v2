@@ -69,7 +69,7 @@ function AppHeader() {
               )}
             </div>
 
-            <NavDropdown title={renderFlag(i18n.resolvedLanguage)}>
+            <NavDropdown title={renderFlag(i18n.resolvedLanguage!)}>
               <div
                 onClick={() => i18n.changeLanguage("en")}
                 className="dropdown-item d-flex gap-2 align-items-center"
