@@ -19,7 +19,7 @@ function AppHeader() {
     setTheme(mode)
   }
 
-  const renderFlag = (language) => {
+  const renderFlag = (language: string) => {
     return (
       <img
         style={{ height: 20, width: 20 }}
