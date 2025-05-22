@@ -1,4 +1,6 @@
-interface IProps {}
+interface IProps {
+  btnText?: string
+}
 
 const ResizeButton = (props: IProps) => {
   const { btnText, btnIcons, btnStyle } = props
