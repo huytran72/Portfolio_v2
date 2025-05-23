@@ -24,8 +24,9 @@
     "baseUrl": ".",
     "paths": {
       "app/*": ["src/app/*"],
-      "config/*": ["src/config/*"],
-      "environments/*": ["src/environments/*"]
+      "config/*": ["src/_config/*"],
+      "environments/*": ["./src/environments/*"],
+      "shared/*": ["src/shared/*"]
     }
   },
   "include": ["src"]
