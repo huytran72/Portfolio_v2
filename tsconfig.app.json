@@ -27,7 +27,8 @@
       "config/*": ["src/_config/*"],
       "environments/*": ["./src/environments/*"],
       "shared/*": ["./src/app/_shared/*"],
-      "helpers/*": ["./src/helpers/*"]
+      "helpers/*": ["./src/helpers/*"],
+      "tests/*": ["./src/tests/*"]
     }
   },
   "include": ["src"]
