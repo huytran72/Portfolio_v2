@@ -21,7 +21,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {}
   },
   "include": ["src"]
 }
