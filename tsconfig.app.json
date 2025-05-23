@@ -22,7 +22,9 @@
     "noFallthroughCasesInSwitch": true,
 
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "app/*": ["src/app/*"]
+    }
   },
   "include": ["src"]
 }
