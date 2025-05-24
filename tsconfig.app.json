@@ -26,7 +26,6 @@
       "@/*": ["./src/*"],
       "assets/*": ["./src/assets/*"],
       "config/*": ["./src/app/_config/*"],
-      "environment/*": ["./src/environments/*"],
       "shared/*": ["./src/app/_shared/*"],
       "helpers/*": ["./src/helpers/*"],
       "tests/*": ["./src/tests/*"]
