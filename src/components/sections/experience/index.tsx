@@ -4,7 +4,7 @@ import experienceJSON from "../../../assets/lottie/code.json"
 import { EXPERIENCES } from "helpers/data"
 import GlowCard from "components/share/glow-card"
 import { BsPersonWorkspace } from "react-icons/bs"
-import blurImg from "../../../assets/blur-23.svg"
+import blurImg from "assets/blur-23.svg"
 import { useCurrentApp } from "../../context/app.context"
 import { useTranslation } from "react-i18next"
 
