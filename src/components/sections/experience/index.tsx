@@ -12,6 +12,8 @@ const Experience = () => {
   const { theme } = useCurrentApp()
   const { t, i18n } = useTranslation()
 
+  const currentLanguage = i18n.resolvedLanguage!
+
   return (
     <Row className="mb-5">
       <Col xs={12} className="my-3 my-md-5">
