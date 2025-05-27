@@ -1,4 +1,4 @@
-import { SKILLS_DATA } from "../../../helpers/data"
+import { SKILLS_DATA } from "helpers/data"
 import { skillsImage } from "../../../helpers/skill.image"
 import Marquee from "react-fast-marquee"
 import "./skill.scss"
