@@ -47,7 +47,7 @@ const Experience = () => {
                 )}
                 <div className="experience-container">
                   <div className="duration-text">
-                    <p>{experience.duration[i18n.resolvedLanguage]}</p>
+                    <p>{experience.duration[currentLanguage]}</p>
                   </div>
                   <div className="details">
                     <div className="icon">
@@ -55,10 +55,10 @@ const Experience = () => {
                     </div>
                     <div className="info">
                       <p className="title">
-                        {experience.title[i18n.resolvedLanguage]}
+                        {experience.title[currentLanguage]}
                       </p>
                       <p className="company">
-                        {experience.company[i18n.resolvedLanguage]}
+                        {experience.company[currentLanguage]}
                       </p>
                     </div>
                   </div>
