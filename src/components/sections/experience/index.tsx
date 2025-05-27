@@ -8,11 +8,13 @@ import blurImg from "assets/blur-23.svg"
 import { useCurrentApp } from "components/context/app.context"
 import { useTranslation } from "react-i18next"
 
+type TLangage = "vi" | "en"
+
 const Experience = () => {
   const { theme } = useCurrentApp()
   const { t, i18n } = useTranslation()
 
-  const currentLanguage = i18n.resolvedLanguage!
+  const currentLanguage = i18n.resolvedLanguage! as TLangage
 
   return (
     <Row className="mb-5">
