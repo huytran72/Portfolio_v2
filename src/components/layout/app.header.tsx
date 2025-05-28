@@ -15,7 +15,7 @@ function AppHeader() {
   const { theme, setTheme } = useCurrentApp()
   const { t, i18n } = useTranslation()
 
-  const handleMode = (mode: string) => {
+  const handleMode = (mode: ThemeContextType) => {
     localStorage.setItem("theme", mode)
     document.documentElement.setAttribute("data-bs-theme", mode)
     setTheme(mode as any)
