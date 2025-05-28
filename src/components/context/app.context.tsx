@@ -7,7 +7,7 @@ interface IAppContext {
 
 type ThemeContextType = "light" | "dark"
 
-const AppContext = createContext<ThemeContextType>("light")
+const AppContext = createContext<IAppContext>(null)
 
 export const AppContextProvider = ({
   children,
