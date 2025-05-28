@@ -1,6 +1,9 @@
 import { createContext, useContext, useEffect, useState } from "react"
 
-interface IAppContext 
+interface IAppContext {
+  theme: "light" | "dark"
+  setTheme: (theme: "light" | "dark") => void
+}
 
 type ThemeContextType = "light" | "dark"
 
