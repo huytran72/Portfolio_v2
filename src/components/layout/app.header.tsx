@@ -16,7 +16,7 @@ function AppHeader() {
   const handleMode = (mode: string) => {
     localStorage.setItem("theme", mode)
     document.documentElement.setAttribute("data-bs-theme", mode)
-    setTheme(mode)
+    setTheme(mode as any)
   }
 
   const renderFlag = (language: string) => {
