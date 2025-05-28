@@ -1,5 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react"
 
+type ThemeContextType = "light" | "dark"
+
 const AppContext = createContext(null)
 
 export const AppContextProvider = ({
