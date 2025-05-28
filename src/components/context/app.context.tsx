@@ -16,7 +16,7 @@ export const AppContextProvider = ({
   })
 
   useEffect(() => {
-    const mode = localStorage.getItem("theme")
+    const mode = localStorage.getItem("theme") as ThemeContextType
     if (mode) {
       setTheme(mode)
       document.documentElement.setAttribute("data-bs-theme", mode)
