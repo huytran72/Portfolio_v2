@@ -1,5 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react"
 
+interface IAppContext 
+
 type ThemeContextType = "light" | "dark"
 
 const AppContext = createContext<ThemeContextType>("light")
