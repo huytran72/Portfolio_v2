@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react"
 
 type ThemeContextType = "light" | "dark"
 
-const AppContext = createContext<ThemeContextType>(null)
+const AppContext = createContext<ThemeContextType>("light")
 
 export const AppContextProvider = ({
   children,
