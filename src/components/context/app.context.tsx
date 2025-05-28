@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react"
 
 interface IAppContext {
   theme: "light" | "dark"
-  setTheme: (theme: "light" | "dark") => void
+  setTheme: (v: ThemeContextType) => void
 }
 
 type ThemeContextType = "light" | "dark"
