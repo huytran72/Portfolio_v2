@@ -10,7 +10,8 @@ export const AppContextProvider = ({
   children: React.ReactNode
 }) => {
   const [theme, setTheme] = useState<ThemeContextType>(() => {
-    const initialTheme = localStorage.getItem("theme") || "light"
+    const initialTheme =
+      (localStorage.getItem("theme") as ThemeContextType) || "light"
     return initialTheme
   })
 
