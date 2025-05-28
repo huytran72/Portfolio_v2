@@ -10,7 +10,7 @@ import viFlag from "../../assets/svg/language/vi.svg"
 import enFlag from "../../assets/svg/language/en.svg"
 
 function AppHeader() {
-  const { theme, setTheme } = useCurrentApp() as any
+  const { theme, setTheme } = useCurrentApp()
   const { t, i18n } = useTranslation()
 
   const handleMode = (mode: string) => {
