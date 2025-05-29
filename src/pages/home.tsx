@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import HeroLeft from "../components/sections/hero/hero.left"
-import HeroRight from "../components/sections/hero/hero.right"
+import HeroRight from "components/sections/hero/hero.right"
 import { MdFileDownload } from "react-icons/md"
 import bg from "assets/section.svg"
 import Introduction from "components/sections/introduction"
