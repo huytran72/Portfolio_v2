@@ -11,7 +11,7 @@ const ResizeButton = (props: IProps) => {
   const { btnText, btnIcons, btnStyle } = props
 
   return (
-    <button onClick={onclick} className="resize-button" style={btnStyle}>
+    <button onClick={onClick} className="resize-button" style={btnStyle}>
       <span style={{ textTransform: "uppercase" }}>{btnText}</span>
       <>{btnIcons}</>
     </button>
