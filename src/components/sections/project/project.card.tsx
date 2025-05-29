@@ -7,6 +7,9 @@ import { BsGithub } from "react-icons/bs"
 interface IProps {
   imgPath: string
   title: string
+  description: string
+  githubLink: string
+  demoLink: string
 }
 
 function ProjectCard(props: IProps) {
