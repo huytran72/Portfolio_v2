@@ -57,7 +57,7 @@ const HomePage = () => {
         </Container>
       </section>
       <Divider />
-      <section>
+      <section ref={expRef}>
         <Container>
           <Experience />
         </Container>
