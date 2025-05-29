@@ -7,6 +7,10 @@ import { APP_DATA } from "helpers/data"
 import { MdFileDownload } from "react-icons/md"
 import { AiFillFire } from "react-icons/ai"
 
+interface IProps {
+  scrollToExperienceSection: () => void
+}
+
 const HeroLeft = (props: IProps) => {
   const { t } = useTranslation()
 
