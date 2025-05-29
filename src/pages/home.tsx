@@ -17,7 +17,7 @@ const HomePage = () => {
   const expRef = useRef<HTMLElement>()
 
   const scrollToExperienceSection = () => {
-    expRef.current.scrollIntoView()
+    expRef.current?.scrollIntoView()
   }
 
   return (
