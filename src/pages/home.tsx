@@ -34,7 +34,7 @@ const HomePage = () => {
         <Container style={{ position: "relative" }}>
           <Row>
             <Col className="d-none d-md-block" md={6}>
-              <HeroLeft />
+              <HeroLeft scrollToExperienceSection={scrollToExperienceSection} />
             </Col>
             <Col md={6}>
               <HeroRight />
