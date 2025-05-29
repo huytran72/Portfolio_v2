@@ -14,7 +14,7 @@ import { useRef } from "react"
 const HomePage = () => {
   const { t } = useTranslation()
 
-  const expRef = useRef<HTMLElement>()
+  const expRef = useRef<HTMLElement>(null)
 
   const scrollToExperienceSection = () => {
     expRef.current?.scrollIntoView()
