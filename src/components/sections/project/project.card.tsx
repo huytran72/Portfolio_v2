@@ -4,7 +4,9 @@ import Button from "react-bootstrap/Button"
 import { CgWebsite } from "react-icons/cg"
 import { BsGithub } from "react-icons/bs"
 
-interface IProps {}
+interface IProps {
+    imgPath: {item.imgPath: string}
+}
 
 function ProjectCard(props: IProps) {
   return (
