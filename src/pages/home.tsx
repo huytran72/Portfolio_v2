@@ -13,6 +13,10 @@ import Skill from "components/sections/skill"
 const HomePage = () => {
   const { t } = useTranslation()
 
+  const scrollToExperienceSection = () => {
+    alert("scrollToExperienceSection is coming soon!")
+  }
+
   return (
     <div className="homepage-screen">
       <div
