@@ -50,7 +50,7 @@ const HeroLeft = (props: IProps) => {
       </div>
       <div className="d-md-flex d-none gap-4">
         <ResizeButton
-          onClick={() => alert("This feature is coming soon!")}
+          onClick={props.scrollToExperienceSection}
           btnText={t("heroSection.exp")}
           btnIcons={<AiFillFire style={{ color: "orange" }} />}
           btnStyle={{
