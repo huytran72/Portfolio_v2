@@ -1,4 +1,4 @@
-import { on } from "events"
+// import { on } from "events"
 
 interface IProps {
   btnText?: string
@@ -8,7 +8,7 @@ interface IProps {
 }
 
 const ResizeButton = (props: IProps) => {
-  const { btnText, btnIcons, btnStyle } = props
+  const { btnText, btnIcons, btnStyle, onClick } = props
 
   return (
     <button onClick={onClick} className="resize-button" style={btnStyle}>
