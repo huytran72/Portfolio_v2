@@ -29,8 +29,7 @@ function ProjectCard(props: IProps) {
           </Card.Text>
           <div>
             <Button variant="primary" href={props.githubLink} target="_blank">
-              <BsGithub /> &nbsp;
-              {props.isBlog ? "Blog" : "GitHub"}
+              <BsGithub /> &nbsp; GitHub
             </Button>
 
             <Button
