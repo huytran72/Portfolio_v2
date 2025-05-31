@@ -1,5 +1,5 @@
 import nestImg from "assets/project/nestjs.png"
-import nextjsImg from "../assets/project/nextjs.jpeg"
+import nextjsImg from "assets/project/nextjs.jpeg"
 import reactNativeImg from "../assets/project/react-native.png"
 import reactUltimateImg from "../assets/project/react-ultimate.png"
 import springMvcImg from "../assets/project/spring-mvc.png"
