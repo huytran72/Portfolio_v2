@@ -1,6 +1,6 @@
 import adobeXd from "assets/svg/skills/adobe-xd.svg"
 import adobeaudition from "assets/svg/skills/adobeaudition.svg"
-import afterEffects from "../assets/svg/skills/after-effects.svg"
+import afterEffects from "assets/svg/skills/after-effects.svg"
 import angular from "../assets/svg/skills/angular.svg"
 import aws from "../assets/svg/skills/aws.svg"
 import azure from "../assets/svg/skills/azure.svg"
