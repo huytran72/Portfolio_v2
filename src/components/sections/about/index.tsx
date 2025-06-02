@@ -8,7 +8,7 @@ import GlowCard from "components/share/glow-card"
 import { FaGraduationCap } from "react-icons/fa6"
 import Divider from "../divider"
 import { APP_DATA } from "helpers/data"
-import SocialMedia from "../social.media"
+import SocialMedia from "components/sections/social.media"
 
 const About = () => {
   return (
