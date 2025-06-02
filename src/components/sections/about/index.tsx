@@ -30,8 +30,8 @@ const About = () => {
 
               <p>
                 {" "}
-                I have completed Bachelor's degree in Software Engineer at San
-                Jose State University.
+                I have completed Bachelor's degree in Software Engineering at
+                San Jose State University.
               </p>
             </div>
           </div>
