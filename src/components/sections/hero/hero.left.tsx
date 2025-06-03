@@ -14,7 +14,10 @@ interface IProps {
 const HeroLeft = (props: IProps) => {
   const { t } = useTranslation()
 
-  const openInNewTab = (url: string): void => {}
+  const openInNewTab = (url: string): void => {
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer")
+    if (newWindow) newWindow.opener = null // Prevents the new page from being able to access the opener
+  }
 
   const handleDownloadCV = () => {
     alert("CV Download feature is not implemented yet.")
