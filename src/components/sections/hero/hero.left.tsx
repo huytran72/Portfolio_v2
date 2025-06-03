@@ -14,6 +14,8 @@ interface IProps {
 const HeroLeft = (props: IProps) => {
   const { t } = useTranslation()
 
+  const handleDownloadCV = () => {}
+
   return (
     <div className="hero-left">
       <h3>
