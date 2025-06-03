@@ -6,7 +6,7 @@ interface IProps {
   width?: string // Optional width for the animation
 }
 
-const AnimationLottie = ({ animationPath, width = "95%" }) => {
+const AnimationLottie = ({ animationPath, width = "95%" }: IProps) => {
   const lottieRef = useRef()
 
   const defaultOptions = useMemo(() => {
