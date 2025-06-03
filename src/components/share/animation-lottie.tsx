@@ -1,6 +1,11 @@
 import Lottie from "lottie-react"
 import { useEffect, useMemo, useRef } from "react"
 
+interface IProps {
+  animationPath: any // Path to the Lottie animation JSON file
+  width?: string // Optional width for the animation
+}
+
 const AnimationLottie = ({ animationPath, width = "95%" }) => {
   const lottieRef = useRef()
 
