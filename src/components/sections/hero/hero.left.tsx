@@ -14,6 +14,8 @@ interface IProps {
 const HeroLeft = (props: IProps) => {
   const { t } = useTranslation()
 
+  const openInNewTab = (url: string): void => {}
+
   const handleDownloadCV = () => {
     alert("CV Download feature is not implemented yet.")
   }
