@@ -20,7 +20,7 @@ const HeroLeft = (props: IProps) => {
   }
 
   const handleDownloadCV = () => {
-    alert("CV Download feature is not implemented yet.")
+    openInNewTab("LINK URL TO YOUR CV HERE")
   }
 
   return (
