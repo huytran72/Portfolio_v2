@@ -3,7 +3,7 @@ import { SiUdemy } from "react-icons/si"
 import { FaTiktok } from "react-icons/fa"
 import { SiYoutubeshorts } from "react-icons/si"
 
-const SocialMedia = (props) => {
+const SocialMedia = (props: Iprops) => {
   const { youtube, tiktok, udemy, facebook } = props
 
   return (
