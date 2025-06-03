@@ -38,7 +38,7 @@ const About = () => {
           <div>
             <p>Apart from coding, some other activities that I love to do!</p>
             <ul>
-              <li>Playing Games</li>
+              <li>Playing Chess</li>
               <li>Writing Tech Blogs</li>
               <li>Travelling</li>
             </ul>
@@ -89,9 +89,9 @@ const About = () => {
                         <FaGraduationCap size={36} />
                       </div>
                       <div className="info">
-                        <p className="title">Softwaren Engineer</p>
+                        <p className="title">Software Engineer</p>
                         <p className="company">
-                          Hanoi University of Science and Technology (HUST)
+                          San Jose State University (SJSU)
                         </p>
                       </div>
                     </div>
