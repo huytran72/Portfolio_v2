@@ -14,7 +14,9 @@ interface IProps {
 const HeroLeft = (props: IProps) => {
   const { t } = useTranslation()
 
-  const handleDownloadCV = () => {}
+  const handleDownloadCV = () => {
+    alert("CV Download feature is not implemented yet.")
+  }
 
   return (
     <div className="hero-left">
@@ -64,6 +66,7 @@ const HeroLeft = (props: IProps) => {
         <ResizeButton
           btnText={t("heroSection.cv")}
           btnIcons={<MdFileDownload />}
+          onClick={handleDownloadCV}
         />
       </div>
     </div>
