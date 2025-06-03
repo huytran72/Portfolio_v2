@@ -22,7 +22,9 @@ const AnimationLottie = ({ animationPath, width = "95%" }: IProps) => {
   }, [animationPath, width])
 
   useEffect(() => {
-    return () => lottieRef.current.destroy()
+    return () => {
+      if (lottieRef && lottieRef.current) lottieRef?.current.destroy()
+    }
   }, [])
 
   return <Lottie {...defaultOptions} />
