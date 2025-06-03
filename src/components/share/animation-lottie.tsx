@@ -1,4 +1,4 @@
-import Lottie from "lottie-react"
+import Lottie, { LottieRefCurrentProps } from "lottie-react"
 import { useEffect, useMemo, useRef } from "react"
 
 interface IProps {
@@ -7,7 +7,7 @@ interface IProps {
 }
 
 const AnimationLottie = ({ animationPath, width = "95%" }: IProps) => {
-  const lottieRef = useRef()
+  const lottieRef = useRef<LottieRefCurrentProps>(null)
 
   const defaultOptions = useMemo(() => {
     return {
