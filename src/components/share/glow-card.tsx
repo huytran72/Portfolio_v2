@@ -8,7 +8,9 @@ interface IProps {
 
 const GlowCard = ({ children, identifier }: IProps) => {
   useEffect(() => {
-    const CONTAINER = document.querySelector(`.glow-container-${identifier}`)!
+    const CONTAINER = document.querySelector(
+      `.glow-container-${identifier}`
+    )! as HTMLElement
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`)!
 
     const CONFIG = {
