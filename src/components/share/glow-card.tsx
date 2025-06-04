@@ -22,7 +22,7 @@ const GlowCard = ({ children, identifier }: IProps) => {
       opacity: 0,
     }
 
-    const UPDATE = (event) => {
+    const UPDATE = (event: any) => {
       for (const CARD of CARDS) {
         const CARD_BOUNDS = CARD.getBoundingClientRect()
 
