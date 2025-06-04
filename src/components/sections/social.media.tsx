@@ -43,7 +43,7 @@ const SocialMedia = (props: Iprops) => {
         href={facebook}
         target="_blank"
         className="highlight"
-        title="Facebook Hỏi Dân IT"
+        title="Facebook Huy Tran"
       >
         <FaFacebook size={30} />
       </a>
