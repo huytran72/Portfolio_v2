@@ -51,7 +51,7 @@ const GlowCard = ({ children, identifier }: IProps) => {
 
         ANGLE = ANGLE < 0 ? ANGLE + 360 : ANGLE
 
-        CARD.style.setProperty("--start", ANGLE + 90)
+        CARD.style.setProperty("--start", "" + (ANGLE + 90))
       }
     }
 
