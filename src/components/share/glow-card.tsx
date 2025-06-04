@@ -1,7 +1,10 @@
 import { useEffect } from "react"
 import "./glow-card.scss"
 
-interface IProps {}
+interface IProps {
+  children: React.ReactNode
+  identifier: string
+}
 
 const GlowCard = ({ children, identifier }) => {
   useEffect(() => {
