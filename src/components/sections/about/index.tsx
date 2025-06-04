@@ -22,8 +22,8 @@ const About = () => {
             <div>
               <p>
                 {" "}
-                Hi Everyone, I am Kenny Tran from San Jose, United State of
-                America.
+                Hi Everyone, I am Huy Tran (Kenny) from San Jose, United State
+                of America.
               </p>
 
               <p> I am currently employed as a a freelance dev (start-up).</p>
