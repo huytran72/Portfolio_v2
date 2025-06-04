@@ -11,7 +11,9 @@ const GlowCard = ({ children, identifier }: IProps) => {
     const CONTAINER = document.querySelector(
       `.glow-container-${identifier}`
     )! as HTMLElement
-    const CARDS = document.querySelectorAll(`.glow-card-${identifier}`)!
+    const CARDS = document.querySelectorAll(
+      `.glow-card-${identifier}`
+    )! as NodeListOf<HTMLElement>
 
     const CONFIG = {
       proximity: 40,
