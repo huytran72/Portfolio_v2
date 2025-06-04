@@ -34,9 +34,9 @@ const GlowCard = ({ children, identifier }: IProps) => {
           event?.y > CARD_BOUNDS.top - CONFIG.proximity &&
           event?.y < CARD_BOUNDS.top + CARD_BOUNDS.height + CONFIG.proximity
         ) {
-          CARD.style.setProperty("--active", 1)
+          CARD.style.setProperty("--active", "1")
         } else {
-          CARD.style.setProperty("--active", CONFIG.opacity)
+          CARD.style.setProperty("--active", "" + CONFIG.opacity)
         }
 
         const CARD_CENTER = [
