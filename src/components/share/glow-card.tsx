@@ -9,7 +9,7 @@ interface IProps {
 const GlowCard = ({ children, identifier }: IProps) => {
   useEffect(() => {
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`)!
-    const CARDS = document.querySelectorAll(`.glow-card-${identifier}`)
+    const CARDS = document.querySelectorAll(`.glow-card-${identifier}`)!
 
     const CONFIG = {
       proximity: 40,
