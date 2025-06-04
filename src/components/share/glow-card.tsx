@@ -68,7 +68,7 @@ const GlowCard = ({ children, identifier }: IProps) => {
     }
 
     RESTYLE()
-    UPDATE(null)
+    // UPDATE(null)
 
     // Cleanup event listener
     return () => {
