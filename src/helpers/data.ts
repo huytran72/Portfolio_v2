@@ -16,12 +16,12 @@ export const EXPERIENCES = [
   {
     id: 1,
     title: {
-      vi: "Lập Trình Viên",
-      en: "Fullstack Developer",
+      vi: "Trưởng Nhóm Học Tập",
+      en: "Peer Learning Team Leader ",
     },
     company: {
-      vi: "Công ty ABCXYZ Ltd.",
-      en: "ABCXYZ Ltd.",
+      vi: "Trường đại học San Jose State",
+      en: "San Jose State University",
     },
     duration: {
       vi: "Jan 2024 - Hiện tại",
@@ -31,32 +31,32 @@ export const EXPERIENCES = [
   {
     id: 2,
     title: {
-      vi: "Lập Trình Viên",
-      en: "Fullstack Developer",
+      vi: "Gia sư",
+      en: "Lead Tutor",
     },
 
     company: {
-      vi: "Công ty F (freelancer)",
-      en: "F (freelancer)",
+      vi: "Trường cao đẳng San Jose/ Evergreen",
+      en: "San Jose/ Evergreen Community College",
     },
     duration: {
-      vi: "Tháng 6/2022 - Tháng 1/2024",
-      en: "Jun 2022 - Jan 2024",
+      vi: "Tháng 8/2022 - Tháng 5/2023",
+      en: "Aug 2022 - May 2023",
     },
   },
   {
     id: 3,
     title: {
-      vi: "Dự án tự làm",
-      en: "Self Employed",
+      vi: "Trợ lý nghiên cứu ",
+      en: "Research Assistant ",
     },
     company: {
-      vi: "Học kiến thức mới mỗi ngày",
-      en: "Code and build something in everyday.",
+      vi: "Trường cao đẳng San Jose/ Evergreen",
+      en: "San Jose/ Evergreen Community College",
     },
     duration: {
-      vi: "Tháng 1/2020 - Hiện tại",
-      en: "Jan 2020 - Present",
+      vi: "Tháng 1/2022 - Tháng 5/2022",
+      en: "Jan 2022 - May 2022",
     },
   },
 ]
