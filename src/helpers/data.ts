@@ -4,6 +4,7 @@ import reactNativeImg from "assets/project/react-native.png"
 import reactUltimateImg from "assets/project/react-ultimate.png"
 import springMvcImg from "assets/project/spring-mvc.png"
 import springRestImg from "assets/project/spring-rest.png"
+import javaSqlImg from "assets/project/java-sql.png"
 
 export const APP_DATA = {
   YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
@@ -84,16 +85,14 @@ export const PROJECTS = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     githubLink: "https://github.com/huytran72/Taskly-App",
-    demoLink: "",
+    // demoLink: "",
   },
   {
     id: 2,
     imgPath: springRestImg,
     title: "Personal Website | React, TypeScript, Vite, SCSS",
-    description: [
-      "Designed and implemented a fully responsive personal website using React, TypeScript, and SCSS with modular components and multi-language support (EN/VN); achieved 95+ Lighthouse performance score.",
-      "Integrated resume download, 10+ project showcases, GitHub links, and interactive skill/experience sections; deployed on Vercel for fast global access.",
-    ],
+    description:
+      "Designed and implemented a fully responsive personal website using React, TypeScript, and SCSS with modular components and multi-language support (EN/VN); achieved 95+ Lighthouse performance score. Integrated resume download, 10+ project showcases, GitHub links, and interactive skill/ experience sections; deployed on Vercel for fast global access.",
     githubLink: "https://github.com/huytran72/Portfolio_v2",
     demoLink: "https://portfolio-ts-v2.vercel.app/",
   },
@@ -121,17 +120,17 @@ export const PROJECTS = [
     // demoLink:
     //   "",
   },
-  // {
-  //   id: 5,
-  //   imgPath: nestImg,
-  //   title: "Nest.js Basic",
-  //   description:
-  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  //   githubLink:
-  //     "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html",
-  //   demoLink:
-  //     "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html",
-  // },
+  {
+    id: 5,
+    imgPath: javaSqlImg,
+    title:
+      "Genetic_Information_Database_System | Java, MySQL, JDBC, Java Servlets",
+    description:
+      "Built a Genetic Information Database System using Java, JDBC, and MySQL, enabling secure storage, query, and management of genetic records. Developed a web interface with HTML & Java Servlets (Tomcat) to support user authentication, record modification, and SQL-based data retrieval.",
+    githubLink:
+      "https://github.com/huytran72/Genetic_Information_Database_System",
+    // demoLink: "",
+  },
   // {
   //   id: 6,
   //   imgPath: reactUltimateImg,
