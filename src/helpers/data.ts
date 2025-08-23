@@ -24,8 +24,8 @@ export const EXPERIENCES = [
       en: "San Jose State University",
     },
     duration: {
-      vi: "Jan 2024 - Hiện tại",
-      en: "Jan 2024 - Present",
+      vi: "Tháng 1/2025 - Tháng 5/2025",
+      en: "Jan 2025 - May 2025",
     },
   },
   {
@@ -89,11 +89,13 @@ export const PROJECTS = [
   {
     id: 2,
     imgPath: springRestImg,
-    title: "Personal Website | React, TypeScript, Vite, SCSS ",
-    description: [
-      "Designed and implemented a fully responsive personal website using React, TypeScript, and SCSS, featuring modular components, multi-language support (EN/VN), and modern UI design; achieved 95+ Lighthouse performance score.",
-      "Integrated resume download, 10+ project showcases, GitHub repository links, and interactive skill/experience sections; deployed on Vercel for seamless updates and fast global access.",
-    ],
+    title: "Personal Website | React, TypeScript, Vite, SCSS",
+    description: `
+    <ul>
+      <li>Designed and implemented a fully responsive personal website using React, TypeScript, and SCSS, featuring modular components, multi-language support (EN/VN), and modern UI design; achieved 95+ Lighthouse performance score.</li>
+      <li>Integrated resume download, 10+ project showcases, GitHub repository links, and interactive skill/experience sections; deployed on Vercel for seamless updates and fast global access.</li>
+    </ul>
+  `,
     githubLink: "https://github.com/huytran72/Portfolio_v2",
     demoLink: "https://portfolio-ts-v2.vercel.app/",
   },
