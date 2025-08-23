@@ -59,6 +59,21 @@ export const EXPERIENCES = [
       en: "Jan 2022 - May 2022",
     },
   },
+  {
+    id: 4,
+    title: {
+      vi: "Giáo viên Toán/ Khoa Học ",
+      en: "Math/ Science Teacher ",
+    },
+    company: {
+      vi: "Trường THCS/THPT Trần Cao Vân",
+      en: "Tran Cao Van High School",
+    },
+    duration: {
+      vi: "Tháng 8/2017 - Tháng 5/2019",
+      en: "Aug 2017 - May 2019",
+    },
+  },
 ]
 
 export const PROJECTS = [
@@ -71,28 +86,29 @@ export const PROJECTS = [
     githubLink: "https://github.com/huytran72/Taskly-App",
     demoLink: "",
   },
-  // {
-  //   id: 2,
-  //   imgPath: springRestImg,
-  //   title: "Java Spring REST",
-  //   description:
-  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  //   githubLink:
-  //     "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
-  //   demoLink:
-  //     "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
-  // },
-  // {
-  //   id: 3,
-  //   imgPath: springMvcImg,
-  //   title: "Java Spring MVC",
-  //   description:
-  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  //   githubLink:
-  //     "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
-  //   demoLink:
-  //     "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
-  // },
+  {
+    id: 2,
+    imgPath: springRestImg,
+    title: "Personal Website | React, TypeScript, Vite, SCSS ",
+    description: [
+      "Designed and implemented a fully responsive personal website using React, TypeScript, and SCSS, featuring modular components, multi-language support (EN/VN), and modern UI design; achieved 95+ Lighthouse performance score.",
+      "Integrated resume download, 10+ project showcases, GitHub repository links, and interactive skill/experience sections; deployed on Vercel for seamless updates and fast global access.",
+    ],
+    githubLink: "https://github.com/huytran72/Portfolio_v2",
+    demoLink: "https://portfolio-ts-v2.vercel.app/",
+  },
+  {
+    id: 3,
+    imgPath: springMvcImg,
+    title: "Sportify App | Java Spring MVC",
+    description: [
+      "Implemented a Sportify App that gathers data from the available list and developed an interface using Java",
+      "The App supports researching the artist, song, published date, and good communicating with functional buttons like play, stop, next, previous",
+    ],
+    githubLink: "https://github.com/huytran72/Sportify_App",
+    // demoLink:
+    //   "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
+  },
   // {
   //   id: 4,
   //   imgPath: nextjsImg,
