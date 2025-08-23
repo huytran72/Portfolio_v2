@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-This is my personal portfolio website built with **TypeScript**, **React**, and **Tailwind CSS**, deployed on **Vercel**.  
+This is my personal portfolio website built with **TypeScript**, **React**, and **SCSS**, deployed on **Vercel**.  
 It showcases my skills, projects, and provides an easy way to connect with me.
 
 🌐 **Live Demo:** [portfolio-ts-v2.vercel.app](https://portfolio-ts-v2.vercel.app/)
@@ -18,7 +18,7 @@ It showcases my skills, projects, and provides an easy way to connect with me.
 
 ## 🛠 Tech Stack
 - **Frontend:** React + TypeScript
-- **Styling:** Tailwind CSS
+- **Styling:** SCSS
 - **Build Tool:** Vite
 - **Deployment:** Vercel
 
@@ -48,5 +48,6 @@ GitHub: [Huy Tran](https://github.com/huytran72/)
 ---
 ## 📄 License
 This project is open source and available under the Harry Tran
+
 
 
