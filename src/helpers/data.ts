@@ -82,6 +82,15 @@ export const PROJECTS = [
   {
     id: 1,
     imgPath: reactUltimateImg,
+    title:
+      "Zing Music Clone | Next.js, React, TypeScript, API(Postman), MUI Design, MongoDB",
+    description:
+      "A full-stack music streaming web application inspired by Zing MP3, featuring secure user authentication, personalized playlists, and a responsive, modern UI. Engineered a full-stack music streaming platform with secure authentication and playlist management, scaling to 100+ concurrent users and a library of 50+ tracks during testing. Optimized API integration and client-side rendering, reducing playback latency and improving page load performance by ~30%, enhancing overall user experience.",
+    githubLink: "https://github.com/huytran72/ZingMusic",
+  },
+  {
+    id: 2,
+    imgPath: reactUltimateImg,
     title: "Taskly Application",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -89,7 +98,7 @@ export const PROJECTS = [
     // demoLink: "",
   },
   {
-    id: 2,
+    id: 3,
     imgPath: springRestImg,
     title: "Personal Website | React, TypeScript, Vite, SCSS",
     description:
@@ -98,7 +107,7 @@ export const PROJECTS = [
     demoLink: "https://portfolio-ts-v2.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     imgPath: springMvcImg,
     title: "Sportify App | Java Spring MVC",
     description: [
@@ -110,7 +119,7 @@ export const PROJECTS = [
     //   "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
   },
   {
-    id: 4,
+    id: 5,
     imgPath: nextjsImg,
     title: "•	Egyptian Pyramids App | Java Spring Boot",
     description: [
@@ -122,7 +131,7 @@ export const PROJECTS = [
     //   "",
   },
   {
-    id: 5,
+    id: 6,
     imgPath: javaSqlImg,
     title:
       "Genetic_Information_Database_System | Java, MySQL, JDBC, Java Servlets",
@@ -133,7 +142,7 @@ export const PROJECTS = [
     // demoLink: "",
   },
   {
-    id: 6,
+    id: 7,
     imgPath: reactViteSwc,
     title: "Tip Calculator App | JavaScript, React+Vite, HTML/CSS",
     description:
