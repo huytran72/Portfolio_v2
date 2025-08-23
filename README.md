@@ -1,4 +1,15 @@
-# Personal Portfolio
+<p align="center">
+ <h1 align="center">PORTFOLIO</h1>
+</p>
+
+[![GitHub stars](https://img.shields.io/github/stars/huytran72/Portfolio_v2)](https://github.com/huytran72/Portfolio_v2/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/huytran72/Portfolio_v2?color=orange)](https://github.com/huytran72/Portfolio_v2/network)
+[![GitHub issues](https://img.shields.io/github/issues/huytran72/Portfolio_v2)](https://github.com/huytran72/Portfolio_v2/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/huytran72/Portfolio_v2?color=blue)](https://github.com/huytran72/Portfolio_v2/pulls)
+
+
+
+# Introduction
 
 This is my personal portfolio website built with **TypeScript**, **React**, and **SCSS**, deployed on **Vercel**.  
 It showcases my skills, projects, and provides an easy way to connect with me.
@@ -48,6 +59,7 @@ GitHub: [Huy Tran](https://github.com/huytran72/)
 ---
 ## 📄 License
 This project is open source and available under the Harry Tran
+
 
 
 
