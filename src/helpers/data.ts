@@ -5,6 +5,7 @@ import reactUltimateImg from "assets/project/react-ultimate.png"
 import springMvcImg from "assets/project/spring-mvc.png"
 import springRestImg from "assets/project/spring-rest.png"
 import javaSqlImg from "assets/project/java-sql.png"
+import reactViteSwc from "assets/project/react-vite-swc.png"
 
 export const APP_DATA = {
   YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
@@ -131,17 +132,16 @@ export const PROJECTS = [
       "https://github.com/huytran72/Genetic_Information_Database_System",
     // demoLink: "",
   },
-  // {
-  //   id: 6,
-  //   imgPath: reactUltimateImg,
-  //   title: "React Ultimate",
-  //   description:
-  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  //   githubLink:
-  //     "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html",
-  //   demoLink:
-  //     "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html",
-  // },
+  {
+    id: 6,
+    imgPath: reactViteSwc,
+    title: "Tip Calculator App | JavaScript, React+Vite, HTML/CSS",
+    description:
+      "Built a responsive app using React, Vite, JavaScript (ES6+), and CSS, featuring modular components and real-time bill splitting. Configured Vite, ESLint, and Babel/SWC plugins for fast development workflow, optimized performance, and maintainable code quality.",
+    githubLink: "https://github.com/huytran72/Tip_Calculator_App",
+    // demoLink:
+    //   "",
+  },
 ]
 
 export const SKILLS_DATA = [
