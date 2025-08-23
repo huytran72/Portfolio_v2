@@ -7,7 +7,7 @@ import { BsGithub } from "react-icons/bs"
 interface IProps {
   imgPath: string
   title: string
-  description: string
+  description: string | string[]
   githubLink: string
   demoLink: string
 }
