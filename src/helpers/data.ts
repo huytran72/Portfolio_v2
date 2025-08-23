@@ -90,12 +90,10 @@ export const PROJECTS = [
     id: 2,
     imgPath: springRestImg,
     title: "Personal Website | React, TypeScript, Vite, SCSS",
-    description: `
-    <ul>
-      <li>Designed and implemented a fully responsive personal website using React, TypeScript, and SCSS, featuring modular components, multi-language support (EN/VN), and modern UI design; achieved 95+ Lighthouse performance score.</li>
-      <li>Integrated resume download, 10+ project showcases, GitHub repository links, and interactive skill/experience sections; deployed on Vercel for seamless updates and fast global access.</li>
-    </ul>
-  `,
+    description: [
+      "Designed and implemented a fully responsive personal website using React, TypeScript, and SCSS with modular components and multi-language support (EN/VN); achieved 95+ Lighthouse performance score.",
+      "Integrated resume download, 10+ project showcases, GitHub links, and interactive skill/experience sections; deployed on Vercel for fast global access.",
+    ],
     githubLink: "https://github.com/huytran72/Portfolio_v2",
     demoLink: "https://portfolio-ts-v2.vercel.app/",
   },
@@ -111,17 +109,18 @@ export const PROJECTS = [
     // demoLink:
     //   "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
   },
-  // {
-  //   id: 4,
-  //   imgPath: nextjsImg,
-  //   title: "React ProMax with Next.js",
-  //   description:
-  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  //   githubLink:
-  //     "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html",
-  //   demoLink:
-  //     "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html",
-  // },
+  {
+    id: 4,
+    imgPath: nextjsImg,
+    title: "•	Egyptian Pyramids App | Java Spring Boot",
+    description: [
+      "Displayed information for a specific Egyptian pharaoh by asking the user for a pyramids ID number that the contributors associated with them.",
+      "Reports a list of requested pyramids without any duplicates. Displays all information such as contributor’s name, gold, and total contribution for each pharaoh",
+    ],
+    githubLink: "https://github.com/huytran72/Egyptian_Pyramids_App",
+    // demoLink:
+    //   "",
+  },
   // {
   //   id: 5,
   //   imgPath: nestImg,
