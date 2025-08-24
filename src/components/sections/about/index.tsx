@@ -157,10 +157,11 @@ const About = () => {
         <Col md={6} xs={12} className=" mt-md-5 mt-3">
           <h3 className="mb-md-5 mb-2">FIND ME ON </h3>
           <SocialMedia
-            youtube={APP_DATA.YOUTUBE_URL}
+            // youtube={APP_DATA.YOUTUBE_URL}
+            // tiktok={APP_DATA.TIKTOK_URL}
+            // udemy={APP_DATA.UDEMY_URL}
             facebook={APP_DATA.FACEBOOK_URL}
-            tiktok={APP_DATA.TIKTOK_URL}
-            udemy={APP_DATA.UDEMY_URL}
+            linkedin={APP_DATA.LINKEDIN_URL}
           />
         </Col>
         <Col

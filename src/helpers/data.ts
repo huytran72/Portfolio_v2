@@ -11,6 +11,7 @@ export const APP_DATA = {
   TIKTOK_URL: "https://www.tiktok.com/@hoidanit",
   UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
   FACEBOOK_URL: "https://www.facebook.com/tranducbaohuy/",
+  LINKEDIN_URL: "https://www.linkedin.com/in/huytran93",
 }
 
 export const EXPERIENCES = [
