@@ -84,14 +84,14 @@ const About = () => {
         <Col md={6} xs={12} className="mt-md-5 mt-3">
           <div className="d-flex flex-column align-items-center gap-3">
             <div>
-              <h4 className="text-center brand-red">Education</h4>
+              <h3 className="text-center brand-red">Education</h3>
             </div>
             <div>
               <GlowCard identifier={`experience-5`}>
                 <div className="p-3 relative">
                   <div className="experience-container">
                     <div className="duration-text">
-                      <p>20xx-20xx</p>
+                      <p>2023-2025</p>
                     </div>
                     <div className="details">
                       <div className="icon">
@@ -102,6 +102,25 @@ const About = () => {
                         <p className="company">
                           San Jose State University (SJSU)
                         </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </GlowCard>
+
+              <GlowCard identifier={`experience-5`}>
+                <div className="p-3 relative">
+                  <div className="experience-container">
+                    <div className="duration-text">
+                      <p>2021-2023</p>
+                    </div>
+                    <div className="details">
+                      <div className="icon">
+                        <FaGraduationCap size={36} />
+                      </div>
+                      <div className="info">
+                        <p className="title">Computer Infomation System</p>
+                        <p className="company">San Jose City College (SJCC)</p>
                       </div>
                     </div>
                   </div>
@@ -134,7 +153,7 @@ const About = () => {
             // https://github.com/airbnb/lottie-web/issues/2070
             animationPath={JSON.parse(CONTACT_LOTTIE)}
           />
-          <h4 className="text-center">Contact me</h4>
+          <h4 className="text-center">Contact me: baohuy82.th@gmail.com</h4>
         </Col>
       </Row>
       <div className="mb-5"></div>
