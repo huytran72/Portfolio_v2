@@ -16,20 +16,23 @@ const About = () => {
       <Row>
         <Col md={6} xs={12}>
           <h3 className="text-center mb-md-5 mb-2">
-            Know Who <span className="brand-red">I'M</span>{" "}
+            Know Who <span className="brand-red">I'M</span>
           </h3>
           <div>
             <div>
               <p>
-                {" "}
-                Hi Everyone, I am Huy Tran (Kenny) from San Jose, United State
-                of America.
+                Hi Everyone, I am Huy Tran (Harry) from San Jose, California,
+                United State of America of America.
               </p>
 
-              <p> I am currently employed as a a freelance dev (start-up).</p>
+              <p>
+                I’m currently working as a freelance developer, collaborating
+                with start-ups and building scalable, user-focused applications.
+                I hold a Bachelor’s degree in Software Engineering from San Jose
+                State University.
+              </p>
 
               <p>
-                {" "}
                 I have completed Bachelor's degree in Software Engineering at
                 San Jose State University.
               </p>
@@ -38,9 +41,15 @@ const About = () => {
           <div>
             <p>Apart from coding, some other activities that I love to do!</p>
             <ul>
-              <li>Playing Chess</li>
-              <li>Writing Tech Blogs</li>
-              <li>Travelling</li>
+              <li>♟ Playing Chess – sharpening strategy and focus</li>
+              <li>
+                ✍️ Writing Tech Blogs – sharing knowledge and ideas with the
+                community
+              </li>
+              <li>🌍 Traveling – experiencing new cultures and perspectives</li>
+              <li>
+                🎮 Gaming – exploring virtual worlds and strategic thinking
+              </li>
             </ul>
           </div>
           <div>
