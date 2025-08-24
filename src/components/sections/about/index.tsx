@@ -33,8 +33,18 @@ const About = () => {
               </p>
 
               <p>
-                I have completed Bachelor's degree in Software Engineering at
-                San Jose State University.
+                I am fluent in programming languages such as Java, JavaScript,
+                and TypeScript, and I have hands-on experience with modern
+                frameworks and tools, including:
+                <ul>
+                  <li>
+                    Frontend: React.js, Next.js, HTML5, CSS3, TailwindCSS,
+                    Material-UI
+                  </li>
+                  <li>Java Spring Boot, Node.js, Express.js, RESTful APIs</li>
+                  <li>MySQL, PostgreSQL, MongoDB</li>
+                  <li>Git/GitHub, Docker, Vercel, AWS</li>
+                </ul>
               </p>
             </div>
           </div>
