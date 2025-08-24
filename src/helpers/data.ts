@@ -80,7 +80,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     id: 1,
-    imgPath: reactNativeImg,
+    imgPath: nextjsImg,
     title:
       "Zing Music Clone | Next.js, React, TypeScript, API(Postman), MUI Design, MongoDB",
     description:
