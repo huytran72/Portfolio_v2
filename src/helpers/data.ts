@@ -4,7 +4,7 @@ import nextjsImg from "assets/project/nextjs.jpeg"
 import reactUltimateImg from "assets/project/react-ultimate.png"
 import springMvcImg from "assets/project/spring-mvc.png"
 import springRestImg from "assets/project/spring-rest.png"
-import javaSqlImg from "assets/project/java-sql.png"
+// import javaSqlImg from "assets/project/java-sql.png"
 import reactViteSwc from "assets/project/react-vite-swc.png"
 
 export const APP_DATA = {
@@ -130,7 +130,7 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    imgPath: javaSqlImg,
+    imgPath: reactUltimateImg,
     title:
       "Genetic_Information_Database_System | Java, MySQL, JDBC, Java Servlets",
     description:
