@@ -22,7 +22,7 @@ const About = () => {
             <div>
               <p>
                 Hi Everyone, I am Huy Tran (Harry) from San Jose, California,
-                United State of America of America.
+                United States of America.
               </p>
 
               <p>
@@ -56,7 +56,7 @@ const About = () => {
             <p className="text-center brand-red">
               "Pursuing Your Dreams Is How You Become Homeless ~.~"
             </p>
-            <p className="text-center brand-red">--Jimmy O Yang</p>
+            <p className="text-center brand-red">--Jimmy O Yang--</p>
           </div>
         </Col>
         <Col
@@ -121,6 +121,27 @@ const About = () => {
                       <div className="info">
                         <p className="title">Computer Infomation System</p>
                         <p className="company">San Jose City College (SJCC)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </GlowCard>
+
+              <GlowCard identifier={`experience-5`}>
+                <div className="p-3 relative">
+                  <div className="experience-container">
+                    <div className="duration-text">
+                      <p>2011-2015</p>
+                    </div>
+                    <div className="details">
+                      <div className="icon">
+                        <FaGraduationCap size={36} />
+                      </div>
+                      <div className="info">
+                        <p className="title">
+                          Faculty of Mathematics and Computer Science
+                        </p>
+                        <p className="company">University of Science (HCMUS)</p>
                       </div>
                     </div>
                   </div>
