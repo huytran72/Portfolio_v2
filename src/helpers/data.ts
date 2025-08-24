@@ -7,9 +7,9 @@ import springRestImg from "assets/project/spring-rest.png"
 import reactViteSwc from "assets/project/react-vite-swc.png"
 
 export const APP_DATA = {
-  YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
-  TIKTOK_URL: "https://www.tiktok.com/@hoidanit",
-  UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
+  // YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
+  // TIKTOK_URL: "https://www.tiktok.com/@hoidanit",
+  // UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
   FACEBOOK_URL: "https://www.facebook.com/tranducbaohuy/",
   LINKEDIN_URL: "https://www.linkedin.com/in/huytran93",
 }
