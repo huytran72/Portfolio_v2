@@ -118,7 +118,7 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    imgPath: nextjsImg,
+    imgPath: reactNativeImg,
     title: "•	Egyptian Pyramids App | Java Spring Boot",
     description: [
       "Displayed information for a specific Egyptian pharaoh by asking the user for a pyramids ID number that the contributors associated with them.",
