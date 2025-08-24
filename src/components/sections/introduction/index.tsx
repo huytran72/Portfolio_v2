@@ -34,7 +34,7 @@ const Introduction = () => {
             <i>
               <b className="text-pink-100">
                 {" "}
-                Java {t("introSection.and")} Javascript.{" "}
+                Java, Javascript {t("introSection.and")} Typescript.{" "}
               </b>
             </i>
             <br />
