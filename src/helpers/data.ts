@@ -95,7 +95,7 @@ export const PROJECTS = [
     description:
       "Developed a Trello-like task management web app with React, Redux, and Material-UI, enabling users to create, update, and organize tasks across multiple boards; optimized component reusability to reduce redundant code by 30%. Implemented drag-and-drop functionality for task cards and integrated theme customization with MUI, enhancing user experience and achieving a 20% faster task organization workflow compared to static task lists.",
     githubLink: "https://github.com/huytran72/Taskly-App",
-    // demoLink: "",
+    demoLink: "",
   },
   {
     id: 3,
@@ -115,8 +115,7 @@ export const PROJECTS = [
       "The App supports researching the artist, song, published date, and good communicating with functional buttons like play, stop, next, previous",
     ],
     githubLink: "https://github.com/huytran72/Sportify_App",
-    // demoLink:
-    //   "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
+    demoLink: "",
   },
   {
     id: 5,
@@ -127,8 +126,7 @@ export const PROJECTS = [
       "Reports a list of requested pyramids without any duplicates. Displays all information such as contributor’s name, gold, and total contribution for each pharaoh",
     ],
     githubLink: "https://github.com/huytran72/Egyptian_Pyramids_App",
-    // demoLink:
-    //   "",
+    demoLink: "",
   },
   {
     id: 6,
@@ -139,7 +137,7 @@ export const PROJECTS = [
       "Built a Genetic Information Database System using Java, JDBC, and MySQL, enabling secure storage, query, and management of genetic records. Developed a web interface with HTML & Java Servlets (Tomcat) to support user authentication, record modification, and SQL-based data retrieval.",
     githubLink:
       "https://github.com/huytran72/Genetic_Information_Database_System",
-    // demoLink: "",
+    demoLink: "",
   },
   {
     id: 7,
@@ -148,8 +146,7 @@ export const PROJECTS = [
     description:
       "Built a responsive app using React, Vite, JavaScript (ES6+), and CSS, featuring modular components and real-time bill splitting. Configured Vite, ESLint, and Babel/SWC plugins for fast development workflow, optimized performance, and maintainable code quality.",
     githubLink: "https://github.com/huytran72/Tip_Calculator_App",
-    // demoLink:
-    //   "",
+    demoLink: "",
   },
 ]
 
