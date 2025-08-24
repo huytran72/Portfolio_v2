@@ -47,11 +47,11 @@ const Introduction = () => {
             <br />
             {t("introSection.heading5")}
             <i>
-              <b className="text-pink-100">&nbsp;Java Spring</b>{" "}
+              <b className="text-pink-100">&nbsp;React</b>{" "}
             </i>
             {t("introSection.and")}
             <i>
-              <b className="text-pink-100"> Node.js</b>
+              <b className="text-pink-100"> Next.js</b>
             </i>
           </p>
         </Col>
